@@ -17,9 +17,9 @@ func TestHealth(t *testing.T) {
 }
 
 // TestInvert - it should return a csv where rows and columns are reversed
+// Ok so, here's where I hit a wall, dig into http request testing or hand in the tech test?
+// will continue to do some research and will add once I learn more!
 func TestInvert(t *testing.T) {
 	input := []string{"a", "b", "c", "d"}
 	expected := fmt.Printf("%s\n", "a, c, b, d")
-
-	result := "hola"
 }
